@@ -118,12 +118,11 @@ h3 {
   height: 600px;
 }
 .blueContainer {
-  margin-top: 30px;
   background-color: white;
   align-items: center;
   padding: 0 30%;
   text-align: left;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 br.wideBreak {
   margin-bottom: 10px;
@@ -175,11 +174,19 @@ br.wideBreak {
   justify-content: space-between;
 }
 .overviewImage {
-  margin-top: 30px;
-  width: 80%;
+  width: 65%;
 }
 .sectionImage {
-  width: 40%;
+  align-self: center;
+  width: 90vw;
+}
+.smallerSectionImage {
+  align-self: center;
+  width: 70vw;
+}
+.mediumSectionImage {
+  align-self: center;
+  width: 80vw;
 }
 .stateImage {
   width: 40vw;
@@ -196,12 +203,18 @@ br.wideBreak {
   margin: 0 auto;
   text-align: left;
 }
+.textCenter {
+  text-align: center;
+}
 .imageBox {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
+  gap: 200px;
+  justify-content: center;
   width: 100%;
+}
+.sideBySide {
+  height: 50vh;
 }
 table {
   margin-top: 10px;
